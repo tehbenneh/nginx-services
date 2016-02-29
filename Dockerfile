@@ -8,7 +8,7 @@ ADD nginx.conf /etc/nginx/
 RUN echo "daemon off;" >> /etc/nginx/nginx.conf
 EXPOSE 80
 
-COPY ./run-munki /usr/local/bin/run-services
+COPY ./run-services /usr/local/bin/run-services
 RUN chmod -Rv 777 /usr/local/bin/* ;
 
 CMD ["/usr/local/bin/run-services"]
