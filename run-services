@@ -1,0 +1,3 @@
+#!/bin/bash
+/usr/bin/mfsmount /mnt/MFS -H mfsmaster -o allow_other -o ro ;
+/usr/sbin/service nginx start ;
