@@ -1,4 +1,4 @@
 #!/bin/bash
 #/usr/bin/mfsmount /mnt/MFS -H mfs.barton.ac.uk -o allow_other -o ro ;
-/usr/bin/mount 10.2.0.241:/mnt/Services /mnt/MFS ;
+/bin/mount 10.2.0.241:/mnt/Services /mnt/MFS ;
 /usr/sbin/service nginx start ;
